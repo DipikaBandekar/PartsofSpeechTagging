@@ -75,15 +75,15 @@
 # ----
 
 # Output for test data: (Output on running for 100 samples)
-# ==> So far scored 2000 sentences with 29442 words.
+#  So far scored 2000 sentences with 29442 words.
 #                   Words correct:     Sentences correct:
-#   0. Ground truth:      100.00%              100.00%
-#          1. Naive:       91.51%               36.35%
-#        2. Sampler:       90.08%               32.35%
-#   3. Max marginal:       91.18%               36.50%
-#            4. MAP:       94.19%               49.90%
-#           5. Best:       94.19%               49.90%
-# ----
+ #  0. Ground truth:      100.00%              100.00%
+  #        1. Naive:       91.51%               36.35%
+   #     2. Sampler:       90.08%               33.05%
+   #3. Max marginal:       91.19%               36.65%
+    #        4. MAP:       94.19%               49.90%
+    #       5. Best:       94.19%               49.90%
+
 
 
 import random
