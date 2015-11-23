@@ -57,12 +57,12 @@
 
 # Assumptions Problems faced:
 # 1) Posterior function is taking excess time for execution. When tried to run without posterior function the test data(big) is running in approx 5 min for 100 samples
-# 2) E.g. for 100 samples big data (approx 5 min without posterior function) and (approx 1 hour with posterior function in pycharm)
+# 2) E.g. for 100 samples big data (approx 5 min without posterior function)
 # 3) For an unknown word we are assuming the most frequent part of speech in all algorithms
 # 4) 1000 samples is running fine for tiny data but it is taking time for big test data file
 
 
-# Output for tiny data: (best output on running a couple of times for 1000 samples, complete output attached in tiny_output text file)
+# Output for tiny data: (best output on running a couple of times for 1000 samples)
 
 # ==> So far scored 3 sentences with 42 words.
 #                   Words correct:     Sentences correct:
@@ -74,7 +74,16 @@
 #           5. Best:       97.62%               66.67%
 # ----
 
-# Output for test data: (Output on running for 100 samples, complete output attached in test_output text file)
+# Output for test data: (Output on running for 100 samples)
+# ==> So far scored 2000 sentences with 29442 words.
+#                   Words correct:     Sentences correct:
+#   0. Ground truth:      100.00%              100.00%
+#          1. Naive:       91.51%               36.35%
+#        2. Sampler:       90.08%               32.35%
+#   3. Max marginal:       91.18%               36.50%
+#            4. MAP:       94.19%               49.90%
+#           5. Best:       94.19%               49.90%
+# ----
 
 
 import random
